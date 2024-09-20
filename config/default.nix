@@ -1,9 +1,11 @@
 {
   # Import all your configuration modules here
   imports = [
-    ./bufferline.nix
+    ./auto-cmds
     ./keymaps
     ./settings
     ./themes
+
+    ./plugins/bufferline.nix
   ];
 }
