@@ -64,10 +64,5 @@
     scrolloff = 10;
   };
 
-  extraConfigLua =
-  ''
-    vim.schedule(function()
-      vim.opt.clipboard = 'unnamedplus'
-    end)
-  '';
+  extraConfigLua = builtins.readFile ./extra.lua;
 }
