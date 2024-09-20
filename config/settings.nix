@@ -63,4 +63,11 @@
     # Minimal number of screen lines to keep above and below cursor
     scrolloff = 10;
   };
+
+  extraConfigLua =
+  ''
+    vim.schedule(function()
+      vim.opt.clipboard = 'unnamedplus'
+    end)
+  '';
 }
