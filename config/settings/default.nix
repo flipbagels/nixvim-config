@@ -11,9 +11,6 @@
     # Spaces instead of tabs
     expandtab = true;
 
-    # Enable smart indentation
-    smartindent = true;
-
     # Always show tabline
     showtabline = 2;
     

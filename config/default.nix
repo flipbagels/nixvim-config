@@ -3,9 +3,8 @@
   imports = [
     ./auto-cmds
     ./keymaps
+    ./plugins
     ./settings
     ./themes
-
-    ./plugins/bufferline.nix
   ];
 }
