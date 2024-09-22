@@ -2,8 +2,9 @@
   imports = [
     ./bufferline.nix
     ./gitsigns.nix
+    ./lsp
     ./lz-n.nix
-    ./telescope/telescope.nix
+    ./telescope
     ./vim-sleuth.nix
     ./which-key.nix
   ];

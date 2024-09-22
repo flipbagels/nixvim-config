@@ -9,31 +9,7 @@
       mode = "n";
       key = "<Esc>";
       action = "<cmd>nohlsearch<CR>";
-    }
-    { # Diagnostic keymap
-      mode = "n";
-      key = "[d";
-      action = "vim.diagnostic.goto_prev";
-      options = { desc = "Go to previous [D]iagnostic message"; };
-    }
-    { # Diagnostic keymap
-      mode = "n";
-      key = "]d";
-      action = "vim.diagnostic.goto_next";
-      options = { desc = "Go to next [D]iagnostic message"; };
-    }
-    { # Diagnostic keymap
-      mode = "n";
-      key = "<leader>e";
-      action = "vim.diagnostic.open_float";
-      options = { desc = "Show diagnostic [E]rror messages"; };
-    }
-    { # Diagnostic keymap
-      mode = "n";
-      key = "<leader>q";
-      action = "vim.diagnostic.setloclist";
-      options = { desc = "Open diagnostic [Q]uickfix list"; };
-    }
+    } 
     { # Exit terminal with <Esc><Esc> instead of <C-\><C-n>
       mode = "t";
       key = "<Esc><Esc>";
