@@ -8,13 +8,7 @@
       group = "highlight-yank";
       event = "TextYankPost";
       pattern = "*";
-      callback = {
-        __raw = ''
-          function()
-            vim.highlight.on_yank()
-          end
-        '';
-      };
+      callback.__raw = builtins.readFile ./TextYankPost.lua;
     }
   ];
 }
