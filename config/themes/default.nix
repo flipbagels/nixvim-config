@@ -4,9 +4,8 @@
     settings = {
       style = "night";
       styles = {
-        comments = {
-          italic = false;
-        };
+        comments = { italic = false; };
+        keywords = { italic = false; };
       };
     };
   };
