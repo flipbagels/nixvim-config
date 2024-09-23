@@ -1,6 +1,6 @@
 {
   autoGroups = {
-    highlight-yank = { clear = true; };
+    highlight-yank = {clear = true;};
   };
 
   autoCmd = [
@@ -12,3 +12,4 @@
     }
   ];
 }
+
