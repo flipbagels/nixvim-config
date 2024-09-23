@@ -1,13 +1,13 @@
 {
   imports = [
-    ./bufferline.nix
+    ./bufferline
     ./conform
-    ./gitsigns.nix
+    ./gitsigns
     ./lsp
-    ./lz-n.nix
+    ./lz-n
     ./nvim-cmp
     ./telescope
-    ./vim-sleuth.nix
-    ./which-key.nix
+    ./vim-sleuth
+    ./which-key
   ];
 }
