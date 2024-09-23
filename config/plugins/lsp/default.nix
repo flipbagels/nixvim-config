@@ -1,5 +1,8 @@
+{ pkgs, ... }:
+
 {
   plugins = {
+    # dependencies
     fidget = { enable = true; };
     cmp-nvim-lsp = { enable = true; };
 

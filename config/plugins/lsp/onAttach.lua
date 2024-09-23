@@ -25,10 +25,10 @@ end
 
 -- Toggle inlay hints if language server supports them
 vim.keymap.set(
-    'n',
-    '<leader>th',
-    function()
-      vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { bufnr = bufnr })
-    end,
-    { buffer = bufnr, desc = 'LSP: [T]oggle Inlay [H]ints' }
+  'n',
+  '<leader>th',
+  function()
+    vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { bufnr = bufnr })
+  end,
+  { buffer = bufnr, desc = 'LSP: [T]oggle Inlay [H]ints' }
 )
