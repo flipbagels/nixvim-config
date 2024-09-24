@@ -7,12 +7,10 @@
     # Number of spaces that represent a <TAB>
     tabstop = 2;
     softtabstop = 2;
+    shiftwidth = 2;
 
     # Spaces instead of tabs
     expandtab = true;
-
-    # Always show tabline
-    showtabline = 2;
 
     # Enable mouse support
     mouse = "a";
@@ -62,4 +60,3 @@
 
   extraConfigLua = builtins.readFile ./extra.lua;
 }
-

@@ -1,6 +1,5 @@
 {
   imports = [
-    ./bufferline
     ./conform
     ./gitsigns
     ./lsp
@@ -17,4 +16,3 @@
     ./which-key
   ];
 }
-
