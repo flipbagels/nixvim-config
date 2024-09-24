@@ -13,7 +13,7 @@
 
     # Always show tabline
     showtabline = 2;
-    
+
     # Enable mouse support
     mouse = "a";
 
@@ -25,7 +25,7 @@
 
     # Save undo history
     undofile = true;
-    
+
     # Case-insensitive searching unless \C or one or more capital letters in the search term
     ignorecase = true;
     smartcase = true;
@@ -35,7 +35,7 @@
 
     # Decrease update time to swap file
     updatetime = 250;
-    
+
     # Decrease mapped sequence wait time (whick-keys displayed sooner)
     timeoutlen = 500;
 
@@ -46,10 +46,9 @@
     # Configures whitespace characters
     list = true;
     listchars = {
-      tab = "» ";
       trail = "·";
       nbsp = "␣";
-      };
+    };
 
     # Preview substitutions in split view
     inccommand = "split";
@@ -63,3 +62,4 @@
 
   extraConfigLua = builtins.readFile ./extra.lua;
 }
+

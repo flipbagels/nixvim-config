@@ -13,6 +13,8 @@
     ./todo-comments
     ./treesitter
     ./vim-sleuth
+    ./undotree
     ./which-key
   ];
 }
+
