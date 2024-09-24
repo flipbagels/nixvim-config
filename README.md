@@ -1,1 +1,1 @@
-Nixvim configuration
+Nixvim configuration flake. This configuration started from converting [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) into a Nix. Writing lua code in Nix strings has been avoided where possible and instead has been imported from lua files.
