@@ -2,6 +2,7 @@
   imports = [
     ./conform
     ./gitsigns
+    ./harpoon
     ./lsp
     ./lualine
     ./lz-n
