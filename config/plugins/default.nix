@@ -15,5 +15,6 @@
     ./vim-sleuth
     ./undotree
     ./which-key
+    ./yazi
   ];
 }
