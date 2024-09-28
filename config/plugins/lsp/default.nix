@@ -1,10 +1,8 @@
-{ pkgs, ... }:
-
-{
+{pkgs, ...}: {
   plugins = {
     # dependencies
-    fidget = { enable = true; };
-    cmp-nvim-lsp = { enable = true; };
+    fidget = {enable = true;};
+    cmp-nvim-lsp = {enable = true;};
 
     lsp = {
       enable = true;
@@ -18,12 +16,17 @@
             };
             diagnostics = {
               # disable = [ "missing-fields" "undefined-fields" ];
-              globals = [ "vim" ];
+              globals = ["vim"];
             };
           };
         };
-        nil-ls = { enable = true; };
-        pyright = { enable = true; };
+        nil-ls = {enable = true;};
+        pyright = {enable = true;};
+        rust-analyzer = {
+          enable = true;
+          installCargo = true;
+          installRustc = true;
+        };
       };
 
       keymaps = {
