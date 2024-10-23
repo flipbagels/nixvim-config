@@ -37,6 +37,10 @@
           group = "Git [H]unk";
           mode = ["n" "v"];
         }
+        {
+          __unkeyed-1 = "<leader>g";
+          group = "[G]it";
+        }
       ];
     };
   };
