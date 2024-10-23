@@ -1,6 +1,7 @@
 {
   imports = [
     ./conform
+    ./fugitive
     ./gitsigns
     ./harpoon
     ./lsp
