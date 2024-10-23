@@ -5,6 +5,5 @@
     ./plugins
     ./settings
     ./themes
-    ./userCommands
   ];
 }
