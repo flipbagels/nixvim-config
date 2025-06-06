@@ -8,7 +8,7 @@
       enable = true;
 
       servers = {
-        lua-ls = {
+        lua_ls = {
           enable = true;
           settings = {
             completion = {
@@ -20,9 +20,9 @@
             };
           };
         };
-        nil-ls = {enable = true;};
+        nil_ls = {enable = true;};
         pyright = {enable = true;};
-        rust-analyzer = {
+        rust_analyzer = {
           enable = true;
           installCargo = true;
           installRustc = true;
