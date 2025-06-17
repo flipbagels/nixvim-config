@@ -24,18 +24,19 @@
 
       perSystem = {
         system,
+        pkgs,
         ...
       }: let
-        pkgs = import nixpkgs {
-          inherit system;
-          overlays  = [ inputs.tidalcycles-nix.overlays.default ];
-        };
+        # pkgs = import nixpkgs {
+        #   inherit system;
+        #   overlays  = [ inputs.tidalcycles-nix.overlays.default ];
+        # };
         nixvimLib = nixvim.lib.${system};
         nixvim' = nixvim.legacyPackages.${system};
         nixvimModule = {
           inherit pkgs;
           module = import ./config; # import the module directly
-          extraSpecialArgs = { inherit pkgs; };
+          # extraSpecialArgs = { inherit pkgs; };
         };
         nvim = nixvim'.makeNixvimWithModule nixvimModule;
       in {
