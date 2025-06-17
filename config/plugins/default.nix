@@ -12,6 +12,7 @@
     ./nvim-cmp
     ./oil
     ./telescope
+    ./tidal
     ./todo-comments
     ./treesitter
     ./vim-sleuth
