@@ -17,7 +17,6 @@
     })
   ];
   extraConfigLua = ''
-    vim.g.tidal_target = "terminal"
-    vim.g.tidal_boot = "ghci -XOverloadedStrings -XExtendedDefaultRules -XDataKinds -XTypeFamilies -XFlexibleContexts -XScopedTypeVariables -package tidal"
+    vim.g.tidal_ghci = "ghci"
   '';
 }
