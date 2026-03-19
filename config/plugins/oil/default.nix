@@ -3,6 +3,12 @@
     enable = true;
     settings = {
       default_file_explorer = true;
+      keymaps = {
+        "<C-h>" = false;
+        "<C-j>" = false;
+        "<C-k>" = false;
+        "<C-l>" = false;
+      };
     };
   };
 

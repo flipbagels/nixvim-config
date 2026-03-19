@@ -22,28 +22,28 @@
       # Window switching
       mode = "n";
       key = "<C-h>";
-      action = "<C-w><C-h>";
+      action = "<C-w>h";
       options = {desc = "Move focus to the left window";};
     }
     {
       # Window switching
       mode = "n";
       key = "<C-l>";
-      action = "<C-w><C-l>";
+      action = "<C-w>l";
       options = {desc = "Move focus to the right window";};
     }
     {
       # Window switching
       mode = "n";
       key = "<C-j>";
-      action = "<C-w><C-j>";
+      action = "<C-w>j";
       options = {desc = "Move focus to the lower window";};
     }
     {
       # Window switching
       mode = "n";
       key = "<C-k>";
-      action = "<C-w><C-k>";
+      action = "<C-w>k";
       options = {desc = "Move focus to the upper window";};
     }
     {
