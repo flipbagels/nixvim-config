@@ -7,6 +7,26 @@
     };
     settings = {
       extensions.__raw = "{ ['ui-select'] = { require('telescope.themes').get_dropdown() } }";
+      defaults = {
+        mappings = {
+          i = {
+            "<C-j>" = {
+              __raw = "require('telescope.actions').select_horizontal";
+            };
+            "<C-l>" = {
+              __raw = "require('telescope.actions').select_vertical";
+            };
+          };
+          n = {
+            "<C-j>" = {
+              __raw = "require('telescope.actions').select_horizontal";
+            };
+            "<C-l>" = {
+              __raw = "require('telescope.actions').select_vertical";
+            };
+          };
+        };
+      };
     };
     keymaps = {
       "<leader>sh" = {
